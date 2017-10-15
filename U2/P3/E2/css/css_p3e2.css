@@ -1,0 +1,25 @@
+*{
+  color: navy;
+  font-family: "Verdana";
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+h1{
+  text-transform: capitalize;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 80px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+
+p{
+  text-indent: 1cm;
+}
+
+a{text-decoration: none;}
+a:active{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: underline;}
