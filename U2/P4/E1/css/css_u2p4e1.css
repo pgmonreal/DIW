@@ -1,0 +1,22 @@
+#footer{
+  padding: 9px;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  overflow: hidden;
+  clear: both;
+}
+
+.izquierda{
+  float: left;
+}
+
+.derecha{
+  float: right;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 20px;
+}

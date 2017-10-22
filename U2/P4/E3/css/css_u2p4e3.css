@@ -1,0 +1,19 @@
+ul{
+  list-style: none;
+  background-color: #D3D3D3;
+  border: 0.01em solid grey;
+  width: 180px;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  border-top: 0.01em solid grey;
+  border-bottom: 0.01em solid grey;
+  padding: 5px 0px 5px 15px;
+}
+
+li:hover{
+  background-color: #959595;
+  color: green;
+}

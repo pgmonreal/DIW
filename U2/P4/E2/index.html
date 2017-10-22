@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[U2-P4-E2] Formularios y CSS</title>
+    <link rel="stylesheet" href="css/css_p4e2.css">
+  </head>
+  <body>
+    <h1>Inscripci&oacute;n a DIW</h1>
+
+    <form class="" action="registro.html" method="post">
+    <fieldset>
+      <legend>Inscripci&oacute;n</legend>
+      <fieldset>
+        <legend>Informaci&oacute;n personal</legend>
+
+        <div>
+          <label for="nombre">Nombre*:</label>
+          <input type="text" name="nombre" id="nombre" value="" required="required" autofocus="autofocus" placeholder="Introduce el nombre...">
+        </div>
+
+        <div>
+          <label for="apellidos">Apellidos*:</label>
+          <input type="text" name="apellidos" id="apellidos" value="" required="required" placeholder="Introduce los apellidos...">
+        </div>
+
+        <div>
+          <label for="email">eMail*:</label>
+          <input type="text" name="email" id="email" value="" required="required" placeholder="Introduce un e-mail...">
+        </div>
+
+        <div>
+          <label>Sexo:</label>
+          <label for="hombre">Hombre
+          <input type="radio" name="sexo" id="hombre" value="hombre"></label>
+          <label for="mujer">Mujer
+          <input type="radio" name="sexo" id="mujer" value="mujer"></label>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="fecha_nac">Fecha nacimiento*:</label>
+          <input type="date" name="fecha_nac" id="fecha_nac" required="required">
+        </div>
+
+        <div>
+          <label for="provincia">Provincia:</label>
+          <select class="" name="provincia">
+            <option value="0" selected="selected">Escoge provincia</option>
+            <option value="cas">Castellon</option>
+            <option value="val">Valencia</option>
+            <option value="ali">Alicante</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="poblacion">Poblaci&oacute;n:</label>
+          <input type="text" name="poblacion" id="poblacion" value="" placeholder="Introduce una población...">
+        </div>
+
+        <div>
+          <label for="telefono">Tel&eacute;fono:</label>
+          <input type="text" name="telefono" id="telefono" value="" placeholder="Introduce un teléfono...">
+        </div>
+
+        <div>
+          <label>Motivo de inscripci&oacute;n:</label>
+          <br><textarea name="motivo" id="motivo" rows="2" cols="100"></textarea>
+        </div>
+
+        <div>
+          <label>Escoge el color de tu avatar:</label>
+          <input type="color" name="color" id="color" value="">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Creaci&oacute;n de usuario</legend>
+
+        <div>
+          <label for="usuario">Nombre de usuario*:</label>
+          <input type="text" name="usuario" id="usuario" value="" required="required" placeholder="Introduce un usuario...">
+        </div>
+
+        <div>
+          <label for="contrasena">Contrase&ntilde;a*:</label>
+          <input type="password" name="contrasena" id="contrasena" value="" required="required" size="10" maxlength="8">
+        </div>
+
+        <div>
+          <label for="verificar">Repite contrase&ntilde;a*:</label>
+          <input type="password" name="verificar" id="verificar" value="" required="required" size="10" maxlength="8">
+        </div>
+
+      </fieldset>
+
+      <div>
+        <input type="checkbox" name="si_correo" value="si_correo">
+        Deseo recibir copias de los mensajes del foro en mi correo electr&oacute;nico.<br>
+        <input type="checkbox" name="si_event" value="si_event">
+        Deseo recibir notificaciones de pr&oacute;ximos eventos en mi correo electr&oacute;nico.
+      </div>
+
+      <input type="button" name="" value="Confirmar registro">
+
+      <div class="aviso">
+        Nota: los campos marcados con "*" son obligatorios.
+      </div>
+
+    </fieldset>
+    </form>
+
+  </body>
+</html>
