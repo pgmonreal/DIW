@@ -1,0 +1,60 @@
+/*Box reset*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.corporativo, .menuPrincipal{
+  display: table-row;
+  width: 100%;
+}
+
+.logo{
+  display: table-cell;
+  width: 80px;
+}
+
+.corporativo > h1{
+  display: table-cell;
+  font: bold 32px, Verdana, sans-serif;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.menuPrincipal{
+
+}
+
+nav{
+  width: 100%;
+  background-color: lightgreen;
+}
+
+nav ul > li{
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul{
+  display: block;
+  width: 100%;
+}
+
+.logo > img{
+  width: 80px;
+}
+
+header{
+  background-color: aqua;
+  display: table;
+  width: 100%;
+}
+
+.container{
+  background-color: lightgray;
+}
+
+footer{
+  background-color: aqua;
+}

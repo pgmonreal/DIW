@@ -1,0 +1,156 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.cabecera{
+  width: 100%;
+  background-color: lightblue;
+  display: table;
+  padding: 10px;
+}
+
+.logo{
+  display: table-cell;
+}
+
+.logo > img{
+  height: 80px;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: -40px;
+}
+
+.company{
+  display: table-cell;
+  text-align: left;
+}
+
+.company > h1{
+  font-weight: bold;
+  font-family: "Verdana";
+  font-size: 24px;
+}
+
+.menu_sup{
+  display: table-cell;
+  vertical-align: top;
+  text-align: right;
+}
+
+.menu_sup ul{
+  display: inline;
+}
+
+.menu_sup li{
+  display: inline-block;
+  background-color: steelblue;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.menu_sup a{
+  color: white;
+  text-decoration: none;
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contenedor{
+  margin: auto;
+  width: 960px;
+}
+
+.menu_lateral{
+  background-color: lightgrey;
+  display: table;
+  float: right;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.menu_lateral aside{
+  width: 220px;
+}
+
+.menu_lateral ul{
+  list-style: none;
+  padding: 20px 200px 20px 20px;
+}
+
+.menu_lateral a{
+  text-decoration: none;
+  color: #000;
+}
+
+.menu_lateral li ul{
+  display: none;
+}
+
+li:hover ul{
+  display: block;
+}
+
+.entradas{
+  display: table;
+}
+
+.entradas h1{
+  font-family: "Verdana";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.entradas h2{
+  font-family: "Verdana";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.entradas hgroup{
+  margin-bottom: 10px;
+}
+
+time{
+  color: lightgrey;
+}
+
+.ent1 img{
+  height: 250px;
+  padding: 10px;
+}
+
+.ent1 figcaption{
+  font-style: italic;
+}
+
+.entradas article{
+  background-color: linen;
+  border: 3px solid lightgray;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.entradas footer{
+  text-align: right;
+}
+
+.entradas footer a{
+  color: steelblue;
+  text-decoration: none;
+}
+
+footer{
+  position: sticky;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  padding: 10px;
+}
