@@ -1,0 +1,47 @@
+.header, .caja_azul, .salto_linea, .caja_gris, .caja_cyan_desktop, .caja_feliz,
+.caja_triste, .footer, .caja_cyan_tablet, .caja_cyan_mobile{
+  border: 1px solid black;
+}
+
+.header{
+  height: 60px;
+  background-color: lime;
+  font-size: 30px;
+  display: table;
+}
+
+label{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.caja_azul{
+  height: 75px;
+  background-color: #88ABDD;
+  display: table;
+}
+
+.caja_cyan_tablet, .caja_cyan_desktop, .caja_cyan_mobile{
+  height: 60px;
+  background-color: cyan;
+  display: table;
+}
+
+.caja_gris{
+  height: 75px;
+  background-color: lightgrey;
+  display: table;
+}
+
+.caja_feliz, .caja_triste{
+  height: 75px;
+  background-color: orange;
+  display: table;
+}
+
+.footer{
+  height: 40px;
+  background-color: lime;
+  display: table;
+}

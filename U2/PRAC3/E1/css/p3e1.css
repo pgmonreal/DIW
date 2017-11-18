@@ -1,0 +1,37 @@
+.header, .lateral_nav, .caja_rosa, .caja_naranja, .caja_azul, .pie{
+  border: 1px solid black;
+}
+
+.header{
+  height: 70px;
+  background-color: lime;
+}
+
+.row{
+  padding: 2px;
+}
+
+.pie{
+  height: 60px;
+  background-color: lime;
+}
+
+.lateral_nav{
+  background-color: red;
+  height: auto;
+}
+
+.caja_rosa{
+  height: 90px;
+  background-color: magenta;
+}
+
+.caja_naranja{
+  height: 300px;
+  background-color: salmon;
+}
+
+.caja_azul{
+  height: 80px;
+  background-color: blue;
+}
