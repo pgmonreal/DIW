@@ -1,0 +1,242 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cabecera{
+  background-color: #343A40;
+  display: table;
+  width: 100%;
+  position: fixed;
+}
+
+.logo{
+  display: table-cell;
+  width: 80px;
+}
+
+.logo > img{
+  height: 60px;
+  margin: 10px 0px 10px 10px;
+  vertical-align: middle;
+}
+
+.texto_logo{
+  display: table-cell;
+  vertical-align: middle;
+  width: 1150px;
+}
+
+.texto_logo > span{
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  color: white;
+}
+
+/*.contenedor div{
+  margin-bottom: 40px;
+}*/
+
+.info{
+  padding: 50px;
+}
+
+.info > p{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: justify;
+}
+
+.imagen img{
+  padding-top: 80px;
+  width: 100%;
+}
+
+.info > img{
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.conocenos h2, .contacto h2{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.conocenos{
+  text-align: center;
+  border-right: 2px solid black;
+  margin-bottom: 50px;
+}
+
+/* .conocenos img{
+  border-radius: 0%;
+} */
+
+[class *= "col-"]{
+  float: left;
+}
+
+.texto{
+  width: 260px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  margin: auto;
+}
+
+.boton{
+
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: white;
+  background: #7F8C8D;
+  padding: 15px 30px;
+  white-space: nowrap;
+  border-radius: 5px;
+  margin: 10px 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contratar{
+  background: #2ECC71;
+}
+
+.contratar:hover{
+  background: #27AE60;
+}
+
+@media (max-width: 660px){
+  .col-movil-1 { width: 8.33%;}
+  .col-movil-2 { width: 16.66%;}
+  .col-movil-3 { width: 25%;}
+  .col-movil-4 { width: 33.33%;}
+  .col-movil-5 { width: 41.66%;}
+  .col-movil-6 { width: 50%;}
+  .col-movil-7 { width: 58.33%;}
+  .col-movil-8 { width: 66.66%;}
+  .col-movil-9 { width: 75%;}
+  .col-movil-10 { width: 83.33%;}
+  .col-movil-11 { width: 91.66%;}
+  .col-movil-12 { width: 100%;}
+  .none-movil { display: none; }
+
+  header{
+    height: 90px;
+  }
+
+  .texto_logo > span{
+    font-size: 30px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .contacto img{
+    margin: 5px 0px 0px 10px;
+    text-align: center;
+  }
+
+  .contacto{
+    margin-bottom: 60px;
+  }
+
+  .contacto span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+  }
+
+  .contratalo{
+    width: 100%;
+    height: 60px;
+    background-color: #2ECC71;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .contratalo span a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (min-width: 661px) and (max-width: 1099px){
+  .col-tablet-1 { width: 8.33%;}
+  .col-tablet-2 { width: 16.66%;}
+  .col-tablet-3 { width: 25%;}
+  .col-tablet-4 { width: 33.33%;}
+  .col-tablet-5 { width: 41.66%;}
+  .col-tablet-6 { width: 50%;}
+  .col-tablet-7 { width: 58.33%;}
+  .col-tablet-8 { width: 66.66%;}
+  .col-tablet-9 { width: 75%;}
+  .col-tablet-10 { width: 83.33%;}
+  .col-tablet-11 { width: 91.66%;}
+  .col-tablet-12 { width: 100%;}
+  .none-tablet { display: none; }
+
+  .info p {
+    font-size: 24px;
+  }
+
+  .contacto img{
+    margin: 15px 0px 0px 50px;
+    text-align: center;
+  }
+
+  .contacto span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+  }
+
+}
+
+@media (min-width: 1100px){
+  .col-desktop-1 { width: 8.33%;}
+  .col-desktop-2 { width: 16.66%;}
+  .col-desktop-3 { width: 25%;}
+  .col-desktop-4 { width: 33.33%;}
+  .col-desktop-5 { width: 41.66%;}
+  .col-desktop-6 { width: 50%;}
+  .col-desktop-7 { width: 58.33%;}
+  .col-desktop-8 { width: 66.66%;}
+  .col-desktop-9 { width: 75%;}
+  .col-desktop-10 { width: 83.33%;}
+  .col-desktop-11 { width: 91.66%;}
+  .col-desktop-12 { width: 100%;}
+  .none-desktop { display: none; }
+
+  .info p {
+    font-size: 28px;
+  }
+
+  .contacto img{
+    margin: 25px 0px 0px 100px;
+    text-align: center;
+  }
+
+  .contacto span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+  }
+
+}
