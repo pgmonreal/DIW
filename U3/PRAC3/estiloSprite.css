@@ -1,0 +1,81 @@
+article h1 i{
+  background: url('./iconos/spriteIconos.png');
+  display: inline-block;
+}
+
+.icon-novedades {
+  background-position:0 -30px;
+  height: 30px;
+  width: 44px;
+}
+
+.icon-est-ofertados{
+  background-position:0 -60px;
+  height: 30px;
+  width: 44px;
+}
+
+.icon-contactar{
+  background-position:0 0px;
+  height: 30px;
+  width: 45px;
+}
+
+footer i{
+  margin-right: 5px;
+}
+
+/* Icono Facebook */
+i.fa-facebook{
+  background-color: #3B5998;
+}
+
+.fa-facebook{
+  padding: 8px 15px;
+  color: white;
+}
+/* Icono Facebook */
+
+/* Icono Linkedin */
+i.fa-linkedin{
+  background-color: #07B5;
+}
+
+.fa-linkedin{
+  padding: 8px 11px;
+  color: white;
+}
+/* Icono Linkedin */
+
+/* Icono Twitter */
+i.fa-twitter{
+  background-color: #00ACED;
+}
+
+.fa-twitter{
+  padding: 8px 9px;
+  color: white;
+}
+/* Icono Twitter */
+
+/* Icono Instagram */
+i.fa-instagram{
+  background: linear-gradient(to bottom right, #8a3ab9, #cd486b);
+}
+
+.fa-instagram{
+  padding: 8px 9px;
+  color: white;
+}
+/* Icono Instagram */
+
+/* Icono Snapchat */
+i.fa-snapchat-ghost{
+  background-color: #FFFC00;
+}
+
+.fa-snapchat-ghost{
+  padding: 7px 8px;
+  color: white;
+}
+/* Icono Snapchat */
