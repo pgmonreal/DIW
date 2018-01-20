@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[U4-P2-E5] CINES DAW</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+
+    <style type="text/css">
+
+    h1{
+      text-align: center;
+    }
+    #panel {
+        display: table;
+        border: 2px solid #000;
+        width: 333px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #filas {
+        display: table-row;
+    }
+    #columna, #columna2, #columna3 {
+        display: table-cell;
+        border: 1px solid #000;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+    </style>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".temporada").hide();
+
+        $(".pass").css('background-color', '#4BB543').css('color', 'white').css('font-weight', 'bold');
+        $(".no_pass").css('background-color', '#C00').css('color', 'white').css('font-weight', 'bold');
+
+        bucle();
+        function bucle(){
+          $(".pass").animate({opacity: '0'}, 1500);
+          $(".pass").animate({opacity: '1'}, 1500, function(){
+            bucle();
+          });
+        }
+
+        function mostrarTemporada(){
+          $(".nombre").hide();
+          $(".temporada").show();
+        }
+
+        function mostrarNombre(){
+          $(".nombre").show();
+          $(".temporada").hide();
+        }
+
+        setInterval(function(){
+          mostrarTemporada();
+        },4000);
+
+        setInterval(function(){
+          mostrarNombre();
+        },7000);
+
+      });
+
+    </script>
+  </head>
+  <body>
+    <h1>Cineseries DAW</h1>
+    <div id="panel">
+      <div id="filas">
+          <div id="columna">Serie</div>
+          <div id="columna">Aula</div>
+          <div id="columna">Acceso</div>
+      </div>
+        <div id="filas">
+            <div id="columna"><span class="nombre">Dark</span> <span class="temporada">Temporada 1</span> </div>
+            <div id="columna">Aula 2.12</div>
+            <div id="columna" class="no_pass">NO PASAR</div>
+        </div>
+        <div id="filas">
+            <div id="columna"><span class="nombre">Stranger Things</span> <span class="temporada">Temporada 2</span> </div>
+            <div id="columna">Aula 2.5</div>
+            <div id="columna" class="pass">ADELANTE</div>
+        </div>
+    </div>
+  </body>
+</html>

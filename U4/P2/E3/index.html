@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[U4-P2-E3]</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+
+    <style media="screen">
+      body{
+        background-color:
+      }
+    </style>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("*").css('margin', '0px').css('padding', '0px').css('box-sizing', 'border-box').css('text-align', 'center');
+        $("body").css('background-color', '#6abaa3');
+        $("button").css('padding', '5px');
+        $("img:first").hide();
+        var bombilla = "ko";
+
+        $("button").click(function(){
+          if(bombilla == "ko"){
+            $("img:first").show();
+            $("img:last").hide();
+            $("button").html("Reventar bombilla");
+            bombilla = "ok";
+          }else{
+            $("img:first").hide();
+            $("img:last").show();
+            $("button").html("Reparar bombilla");
+            bombilla = "ko";
+          }
+        })
+      })
+    </script>
+
+  </head>
+  <body>
+    <div class="casquillo">
+      <img src="img/bomb_ok.png" alt="Bombilla en buen estado">
+      <img src="img/bomb_ko.png" alt="Bombilla rota"> <br>
+      <button>Reparar bombilla</button>
+    </div>
+  </body>
+</html>
